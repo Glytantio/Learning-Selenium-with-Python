@@ -15,8 +15,8 @@ print("Page Title is:", driver.title)
 driver.quit()
 
 def search():
+  driver = setup()
   try:
-    driver = setup()
     driver.get("https://www.google.com")
     # Find the search box and type a query
     search_box = driver.find_element(BY.NAME,"q")
