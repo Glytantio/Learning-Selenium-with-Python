@@ -28,4 +28,5 @@ def search():
     teardown()
 
 if __name__ == "__main__":
+  #Initiate the automation script
   search()
