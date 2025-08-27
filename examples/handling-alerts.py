@@ -50,5 +50,6 @@ def handling_alerts():
   finally:
     teardown()
 
-if
+if __name__ == "__main__":
+  handling_alerts()
   
